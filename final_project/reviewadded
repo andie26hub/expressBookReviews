@@ -1,0 +1,8 @@
+curl.exe -X PUT http://localhost:5000/customer/auth/review/1 -H "Content-Type: application/json" -H "Authorization: Bearer eyJ…" --data "{\"review\":\"This is a great book\"}"
+
+{
+  "message": "Review added/updated successfully",
+  "reviews": {
+    "faye": "This is a great book"
+  }
+}
